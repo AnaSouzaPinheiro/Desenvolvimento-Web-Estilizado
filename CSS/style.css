@@ -185,12 +185,12 @@ body {
   border-top: 1px solid rgb(255, 255, 255);
 }
 
-.sumario a:hover {
+.sumario a:hover , .sumario a:active {
   background-color: #00c0c0;
   font-weight: bold;
 }
 
-.carreiraDev:hover {
+.sumario a:last-child:hover, .sumario a:last-child:active {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
