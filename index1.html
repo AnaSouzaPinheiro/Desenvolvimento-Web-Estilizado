@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Web</title>
+    <link rel="icon" href="IMG/desenvolvimento-web.png" type="image/png">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+  </head>
+
+  <body id="inicio">
+    <div class="container">
+      <header class="header">
+        <nav class="menu">
+          <h1> Ana Letícia de Souza Pinheiro </h1>
+          
+          <div class="as">
+            <a class="a-as" onclick="changeColor('about');" href="#sobre"> Sobre mim </a>
+            <a class="a-as" onclick="changeColor('contact');" href="#contato"> Contato </a>
+
+            <div class="menuCelular">
+              <svg xmlns="http://www.w3.org/2000/svg" class="bi-bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+               <ul  class="hideMenu">
+                 <li><a onclick="changeColor('about');" href="#sobre"> Sobre mim </a></li>
+                 <li><a onclick="changeColor('contact');" href="#contato"> Contato </a></li>
+               </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section class="image">
+        <div class="text-image">
+          <h1>Desenvolvimento Web</h1>
+          <p>
+            As informações nesta página foram geradas pelo ChatGPT, um modelo de
+            linguagem desenvolvido pela
+            <a href="https://openai.com">OpenAI</a>. Eu,
+            Ana Letíca, fui responsável pela edição e adaptação do conteúdo.
+            Última atualização: 01 de setembro de 2023.
+          </p>
+        </div>
+        <img
+          src="IMG/6500555.jpg"
+          alt="desenvolvimento web">
+      </section>
+
+      <div class="content">
+      <div class="sum">
+      <nav class="sumario">
+        <h2>Sumário</h2>
+        <a href="#introdução" onclick="changeColor('introduction');">
+          Introdução ao Desenvolvimento Web
+        </a>
+        <a href="#conceito" onclick="changeColor('concept');">
+          Conceito Inicial do Desenvolvimento Web
+        </a>
+        <a href="#papel" onclick="changeColor('paper');">
+          O Papel do Desenvolvedor Web
+        </a>
+        <a href="#front-end" onclick="changeColor('front');">
+          Explorando Front-End e Back-End
+        </a>
+        <a href="#full-stack" onclick="changeColor('full');">
+          Desenvolvimento Web Full Stack
+        </a>
+        <a href="#principais" onclick="changeColor('mainTechnologies');">
+          As Principais Tecnologias de Desenvolvimento Web
+        </a>
+        <a href="#editores" onclick="changeColor('IDEs');">
+          Editores de Código Recomendados
+        </a>
+        <a href="#hospedagem" onclick="changeColor('accommodation');">
+          Hospedagem de Sites Estáticos
+        </a>
+        <a
+          class="carreiraDev"
+          href="#carreira"
+          onclick="changeColor('career');"
+        >
+          Iniciando sua Carreira no Desenvolvimento Web
+        </a>
+      </nav>
+      </div>
+
+      <article class="article">
+        <section id="introdução">
+          <h2 id="introduction">Introdução ao Desenvolvimento Web</h2>
+          <p>
+            O desenvolvimento web é uma disciplina crucial na criação de sites e
+            aplicativos para a internet. Ele engloba uma ampla gama de tópicos e
+            habilidades que permitem a criação e manutenção de interfaces de
+            usuário dinâmicas e funcionais. Nesta introdução, exploraremos os
+            fundamentos do desenvolvimento web, o papel de um desenvolvedor web,
+            os conceitos de front-end e back-end, tecnologias essenciais,
+            melhores editores de código, opções de hospedagem gratuita e dicas
+            para iniciar uma carreira neste campo empolgante.
+          </p>
+        </section>
+
+        <section id="conceito">
+          <h2 id="concept">Conceito Inicial do Desenvolvimento Web</h2>
+          <p>
+            O desenvolvimento web é o processo de criar websites e aplicativos
+            que os usuários acessam por meio da internet. Isso envolve a
+            combinação de habilidades técnicas, criatividade e resolução de
+            problemas. O desenvolvimento web inclui diferentes aspectos, como
+            design de interface, programação, segurança e otimização.
+          </p>
+        </section>
+
+        <section id="papel">
+          <h2 id="paper">O Papel do Desenvolvedor Web</h2>
+          <p>
+            Os desenvolvedores web desempenham um papel crucial na construção e
+            manutenção de plataformas online. Eles transformam ideias em código,
+            criando a estrutura, a funcionalidade e a aparência dos sites. Isso
+            pode envolver a colaboração com designers, especialistas em
+            usabilidade e outros profissionais para garantir uma experiência de
+            usuário excepcional.
+          </p>
+        </section>
+
+        <section id="front-end">
+          <h2 id="front">Explorando Front-End e Back-End</h2>
+          <p>
+            O front-end lida com a parte visível do site, incluindo layout,
+            tipografia, cores e interatividade. Os desenvolvedores front-end
+            utilizam HTML para estruturar o conteúdo, CSS para estilizar e
+            JavaScript para adicionar interatividade.
+          </p>
+
+          <p>
+            O back-end, por sua vez, trata da lógica por trás do site. Os
+            desenvolvedores back-end trabalham com linguagens como Python, Ruby,
+            Java, Node.js, entre outras, para criar a funcionalidade do site,
+            interagindo com bancos de dados e processando solicitações dos
+            usuários.
+          </p>
+        </section>
+
+        <section id="full-stack">
+          <h2 id="full">Desenvolvimento Web Full Stack</h2>
+          <p>
+            Um desenvolvedor full stack possui conhecimentos tanto no front-end
+            quanto no back-end, permitindo que eles criem aplicações completas
+            do início ao fim. Isso pode incluir o desenvolvimento de interfaces
+            de usuário atraentes, integração com bancos de dados, criação de
+            APIs e gerenciamento de servidores.
+          </p>
+        </section>
+
+        <section id="principais">
+          <h2 id="mainTechnologies">
+            As Principais Tecnologias de Desenvolvimento Web: HTML, CSS e
+            JavaScript
+          </h2>
+          <p>
+            No cenário do desenvolvimento web, três tecnologias desempenham
+            papéis cruciais na criação de experiências online excepcionais:
+          </p>
+
+          <br>
+          <h3>HTML (Hypertext Markup Language)</h3>
+          <p>
+            HTML, ou Hypertext Markup Language, é a base sobre a qual todas as
+            páginas da web são construídas. Ele define a estrutura e o conteúdo
+            de uma página, permitindo a organização hierárquica de elementos
+            como títulos, parágrafos, imagens, links e listas. Por meio de
+            etiquetas (tags), os desenvolvedores delimitam o início e o fim de
+            cada elemento, permitindo que os navegadores interpretem e
+            renderizem o conteúdo adequadamente. Com o HTML, os desenvolvedores
+            podem criar uma base sólida para apresentar informações e conteúdo
+            de maneira estruturada.
+          </p>
+
+          <br>
+          <h3>CSS (Cascading Style Sheets)</h3>
+          <p>
+            CSS, ou Cascading Style Sheets, é responsável pelo aspecto visual
+            das páginas da web. Ele permite que os desenvolvedores definam como
+            os elementos HTML devem ser exibidos, controlando propriedades como
+            cores, fontes, margens, tamanhos e posicionamento. Ao separar o
+            conteúdo da apresentação, o CSS facilita a criação de designs coesos
+            e atraentes em todo o site. Além disso, ele introduz a ideia de
+            "cascata", onde estilos podem ser aplicados hierarquicamente, com a
+            possibilidade de anulação se necessário. Essa separação entre
+            estrutura (HTML) e estilo (CSS) é fundamental para a manutenção
+            eficiente de projetos web.
+          </p>
+
+          <br>
+          <h3>JavaScript</h3>
+          <p>
+            JavaScript é uma linguagem de programação que dá vida à web. Ele
+            adiciona interatividade e dinamismo às páginas, permitindo que os
+            desenvolvedores criem recursos como botões interativos, animações,
+            efeitos de rolagem suave e elementos que respondem a ações do
+            usuário. Ao interagir com o DOM (Document Object Model) - a
+            representação em memória da estrutura de uma página - o JavaScript
+            torna possível modificar, adicionar ou remover elementos após a
+            renderização inicial. Com o uso de bibliotecas e frameworks, como
+            jQuery, React e Vue.js, os desenvolvedores podem simplificar ainda
+            mais o desenvolvimento de recursos avançados e complexos.
+          </p>
+
+          <br>
+          <p>
+            Em resumo, HTML, CSS e JavaScript formam o núcleo do desenvolvimento
+            web moderno. O HTML estabelece a estrutura, o CSS fornece o estilo e
+            o JavaScript oferece a interatividade. Juntas, essas tecnologias
+            permitem que os desenvolvedores criem páginas da web atrativas,
+            funcionais e envolventes que atendam às necessidades e expectativas
+            dos usuários.
+          </p>
+        </section>
+
+        <section id="editores">
+          <h2 id="IDEs">
+            Editores de Código Recomendados e Links de Instalação
+          </h2>
+          <p>
+            Aqui estão alguns dos melhores editores de código amplamente
+            utilizados no desenvolvimento web, juntamente com seus respectivos
+            links para download:
+          </p>
+          <ol>
+            <li>
+              <h3>Visual Studio Code (VS Code)</h3>
+              <p>
+                Um editor de código poderoso e altamente extensível desenvolvido
+                pela Microsoft. Possui uma grande comunidade e uma vasta coleção
+                de extensões para melhorar a produtividade.
+              </p>
+              <p class="site">
+                Site:
+                <a href="https://code.visualstudio.com/">
+                  Visual Studio Code
+                </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>Sublime Text</h3>
+              <p>
+                Um editor de código rápido e leve, com destaque de sintaxe
+                avançado e uma interface elegante.
+              </p>
+              <p class="site">
+                Site: <a href="https://www.sublimetext.com/"> Sublime Text </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>Atom</h3>
+              <p>
+                Um editor de código de código aberto desenvolvido pelo GitHub.
+                Possui uma interface personalizável e suporte a pacotes para
+                adicionar funcionalidades extras.
+              </p>
+              <p class="site">Site: <a href="https://atom.io/"> Atom </a></p>
+            </li>
+
+            <li>
+              <h3>Brackets</h3>
+              <p>
+                Um editor de código desenvolvido pela Adobe, projetado
+                especificamente para desenvolvimento web, com destaque para
+                HTML, CSS e JavaScript.
+              </p>
+              <p class="site">
+                Site: <a href="http://brackets.io/"> Brackets </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>Visual Studio Community</h3>
+              <p>
+                Um ambiente de desenvolvimento integrado (IDE) completo da
+                Microsoft, com recursos robustos para desenvolvimento web e
+                outras plataformas.
+              </p>
+              <p class="site">
+                Site:
+                <a
+                  href="https://visualstudio.microsoft.com/visual-studio-community/"
+                >
+                  Visual Studio Community
+                </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>Notepad++</h3>
+              <p>
+                Um editor de código-fonte e texto que é popular devido à sua
+                simplicidade e velocidade.
+              </p>
+              <p class="site">
+                Site: <a href="https://notepad-plus-plus.org/"> Notepad++ </a>
+              </p>
+            </li>
+          </ol>
+
+          <br>
+          <p>
+            Lembre-se de que a escolha do editor de código é pessoal e pode
+            depender das suas preferências e necessidades específicas. Todos
+            esses editores oferecem uma experiência de desenvolvimento eficiente
+            e podem ser personalizados com extensões para atender às suas
+            demandas.
+          </p>
+          <br>
+          <p>
+            Ao acessar os links, você poderá obter mais informações sobre cada
+            editor e fazer o download da versão adequada para o seu sistema
+            operacional.
+          </p>
+        </section>
+
+        <section id="hospedagem">
+          <h2 id="accommodation">
+            Hospedagem de Sites Estáticos: Opções Gratuitas em Destaque
+          </h2>
+          <p>
+            Hospedagem de sites estáticos se refere a uma maneira de hospedar
+            sites que consistem em arquivos HTML, CSS, JavaScript e outros
+            recursos estáticos, ou seja, conteúdo que não é gerado dinamicamente
+            a partir de um banco de dados. Esses tipos de sites são
+            frequentemente mais leves, rápidos de carregar e mais simples em
+            comparação com sites dinâmicos.
+          </p>
+
+          <p>
+            Aqui estão algumas opções gratuitas em destaque para hospedagem de
+            sites estáticos:
+          </p>
+
+          <ol>
+            <li>
+              <h3>GitHub Pages</h3>
+              <p>
+                O GitHub Pages oferece hospedagem gratuita para sites estáticos
+                diretamente de repositórios do GitHub. É especialmente útil para
+                desenvolvedores que usam o controle de versão Git. Você pode
+                hospedar sites pessoais, de projetos ou de documentação.
+              </p>
+              <p class="site">
+                Site: <a href="https://pages.github.com/"> GitHub Pages </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>Netlify</h3>
+              <p>
+                O Netlify oferece hospedagem gratuita para sites estáticos com
+                integração contínua. Ele permite que você faça deploy
+                automaticamente a partir de repositórios do Git e oferece
+                recursos como redirecionamentos, formulários de contato e
+                suporte a JAMstack (JavaScript, APIs e pré-renderização de
+                marcação).
+              </p>
+              <p class="site">
+                Site: <a href="https://www.netlify.com/"> Netlify </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>Vercel</h3>
+              <p>
+                Anteriormente conhecido como ZEIT Now, o Vercel é uma plataforma
+                de hospedagem que suporta sites estáticos e aplicativos
+                front-end. Ele oferece integração com Git e uma experiência de
+                desenvolvimento rápida com recursos como pré-renderização e
+                suporte a SSR (renderização do lado do servidor).
+              </p>
+              <p class="site">
+                Site: <a href="https://vercel.com/"> Vercel </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>GitLab Pages</h3>
+              <p>
+                Assim como o GitHub Pages, o GitLab Pages oferece hospedagem
+                gratuita para sites estáticos diretamente de repositórios do
+                GitLab. É uma opção popular para quem já utiliza a plataforma
+                GitLab para controle de versão.
+              </p>
+              <p class="site">
+                Site:
+                <a
+                  href="https://about.gitlab.com/stages-devops-lifecycle/pages/"
+                >
+                  GitLab Pages
+                </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>Firebase Hosting</h3>
+              <p>
+                O Firebase, da Google, oferece hospedagem estática para seus
+                aplicativos da web. Embora seja mais conhecido por seu banco de
+                dados em tempo real, ele também oferece hospedagem rápida e
+                segura para sites estáticos.
+              </p>
+              <p class="site">
+                Site:
+                <a href="https://firebase.google.com/products/hosting">
+                  Firebase Hosting
+                </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>Render</h3>
+              <p>
+                Render é uma plataforma de hospedagem que oferece hospedagem
+                gratuita para sites estáticos e aplicativos de back-end. Ele
+                também permite que você implante aplicativos da web com
+                facilidade.
+              </p>
+              <p class="site">
+                Site: <a href="https://render.com/"> Render </a>
+              </p>
+            </li>
+
+            <li>
+              <h3>Surge</h3>
+              <p>
+                Surge é uma opção simples e direta para hospedar sites
+                estáticos. Ele permite que você implante sites com apenas alguns
+                comandos no terminal, tornando-o ótimo para projetos rápidos.
+              </p>
+              <p class="site">Site: <a href="https://surge.sh/"> Surge </a></p>
+            </li>
+          </ol>
+
+          <p>
+            Lembre-se de que as ofertas e os recursos dessas plataformas podem
+            mudar com o tempo, por isso é sempre uma boa ideia verificar os
+            sites oficiais para obter as informações mais atualizadas sobre os
+            serviços gratuitos oferecidos. Além disso, as opções gratuitas podem
+            ter limitações de recursos, como largura de banda, espaço em disco e
+            funcionalidades avançadas. Se o seu projeto crescer, você pode
+            precisar considerar planos pagos ou outras soluções de hospedagem.
+          </p>
+        </section>
+
+        <section id="carreira">
+          <h2 id="career">
+            Iniciando sua Carreira no Desenvolvimento Web: Dicas e Orientações
+          </h2>
+          <p>
+            Iniciar uma carreira no desenvolvimento web pode ser empolgante, mas
+            também desafiador. Aqui estão algumas dicas e orientações para
+            ajudar você a começar:
+          </p>
+
+          <ol>
+            <li>
+              <p>
+                <b> Aprenda os Fundamentos: </b> Comece aprendendo os
+                fundamentos da web, como HTML, CSS e JavaScript. Essas são as
+                bases para a construção de sites e aplicativos da web. Existem
+                muitos recursos online, tutoriais e cursos gratuitos para
+                aprender essas tecnologias.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Defina Seus Objetivos: </b> Decida que tipo de desenvolvedor
+                web você deseja ser. Você está interessado em front-end,
+                back-end ou desenvolvimento full-stack (ambos)? Cada um tem suas
+                próprias responsabilidades e conjuntos de habilidades.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Escolha uma Linguagem de Programação: </b> Se você está
+                interessado em back-end ou desenvolvimento full-stack, você
+                precisará escolher uma linguagem de programação. Python,
+                JavaScript, Ruby e PHP são algumas opções populares. Escolha uma
+                que se alinhe aos seus objetivos e interesses.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Explore Frameworks e Bibliotecas: </b> Há muitos frameworks
+                e bibliotecas disponíveis para facilitar o desenvolvimento. Por
+                exemplo, no front-end, você pode explorar o React, Vue.js ou
+                Angular. No back-end, há o Node.js, Django, Ruby on Rails, entre
+                outros.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Pratique Muito: </b> A prática é essencial para melhorar
+                suas habilidades. Comece construindo pequenos projetos e,
+                gradualmente, aumente a complexidade à medida que ganha
+                confiança. Isso ajudará você a aplicar o que aprendeu e a
+                enfrentar desafios reais.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Trabalhe em Projetos Pessoais: </b> Além de exercícios de
+                prática, trabalhar em projetos pessoais é uma ótima maneira de
+                aprender. Escolha projetos que o interessem e que estejam um
+                pouco fora da sua zona de conforto para que você possa aprender
+                novas coisas.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Use Controle de Versão: </b> Aprenda a usar sistemas de
+                controle de versão, como Git. Isso é fundamental para
+                colaboração e gerenciamento de código.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Colabore e Compartilhe: </b> Participe de comunidades de
+                desenvolvedores, fóruns e redes sociais. Isso não apenas ajuda
+                você a aprender com os outros, mas também a criar uma presença
+                online que pode ser útil para futuras oportunidades.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Esteja Aberto a Aprender: </b> O desenvolvimento web está em
+                constante evolução. Esteja disposto a aprender novas
+                tecnologias, acompanhar as tendências e se adaptar às mudanças..
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Construa um Portfólio: </b> À medida que você desenvolve
+                projetos, crie um portfólio online para mostrar suas habilidades
+                aos potenciais empregadores. Um portfólio forte é uma maneira
+                eficaz de demonstrar suas capacidades.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Aprenda sobre Responsividade e Acessibilidade: </b> Garanta
+                que seus sites sejam responsivos (adequados a diferentes
+                tamanhos de tela) e acessíveis (usáveis por pessoas com
+                deficiências). Isso é importante para fornecer a melhor
+                experiência possível para todos os usuários.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Considere a Educação Formal: </b> Embora muitos
+                desenvolvedores aprendam por conta própria, uma educação formal
+                em ciência da computação ou desenvolvimento web pode fornecer
+                uma base sólida. Considere cursos universitários ou bootcamps de
+                programação.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <b> Mantenha-se Atualizado: </b> Siga blogs, sites de notícias
+                de tecnologia e influenciadores da indústria para se manter
+                atualizado sobre as últimas tendências e avanços no
+                desenvolvimento web.
+              </p>
+            </li>
+          </ol>
+
+          <p>
+            Lembre-se de que o desenvolvimento web é um campo amplo e
+            diversificado. À medida que você avança em sua carreira, você pode
+            se especializar em áreas como segurança, UX/UI, otimização de
+            desempenho, entre outras. O mais importante é ser dedicado,
+            persistente e apaixonado por aprender e criar.
+          </p>
+        </section>
+
+        <section id="sobre">
+          <h2 id="about">Sobre mim</h2>
+          <p>
+            Olá! Meu nome é Ana Letícia, tenho 18 anos e sou estudante de
+            Ciência da Computação na Dom Helder. Além do mundo da programação e
+            da informática, gosto de escutar músicas, jogar, ler e assistir
+            séries no tempo livre.
+          </p>
+        </section>
+
+        <section id="contato">
+          <h2 id="contact">Contato</h2>
+          <ul>
+            <li>E-mail: anapinheirole@gmail.com</li>
+            <li>
+              Instagram:
+              <a href="https://www.instagram.com/anale_05/"> @anale_05 </a>
+            </li>
+          </ul>
+        </section>
+        
+        <section><a href="#inicio"> Retornar ao topo da página </a></section>
+      </article>
+      </div>
+
+      <footer class="footer">
+        <h2>Ana Letícia de Souza Pinheiro</h2>
+        <p>2023</p>
+      </footer>
+    </div>
+
+    <script src="SCRIPT/changecolor.js"></script>
+    <script src="SCRIPT/sumarioPosition.js"></script>
+    <script src="SCRIPT/menu.js"></script>
+  </body>
+</html>
