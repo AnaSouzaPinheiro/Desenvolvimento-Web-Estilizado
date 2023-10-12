@@ -19,7 +19,7 @@ function handleScroll() {
 
       const computedStyle = window.getComputedStyle(sumDiv);
       if (computedStyle.getPropertyValue("position") === "fixed") {
-        article.style.marginLeft = "475px";
+        article.style.marginLeft = "415px";
       }
     } else {
       sumDiv.style.position = "static";
