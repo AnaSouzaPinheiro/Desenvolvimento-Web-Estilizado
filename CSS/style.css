@@ -167,7 +167,7 @@ body {
   background-color: #51699c;
   color: #fff;
   border-radius: 20px;
-  margin: 50px 80px 0 80px;
+  margin: 50px 50px 0 50px;
   text-align: center;
 
   transition: transform 0.3s ease-in-out;
@@ -280,7 +280,7 @@ ol li {
   width: 40px;
   height: 40px;
   bottom: 25px;
-  left: 25px;
+  right: 25px;
 }
 
 /* FOOTER */
@@ -317,7 +317,7 @@ footer {
 
 /* MENU */
   .menu {
-    padding: 0 80px;
+    padding: 0 50px;
   }
 
   .menu a {
@@ -373,7 +373,7 @@ footer {
 
   /* SECTIONS */
   section {
-    padding: 50px 80px 0 0;
+    padding: 50px 50px 0 0;
   }
 
   .information {
