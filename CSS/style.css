@@ -167,7 +167,7 @@ body {
   background-color: #51699c;
   color: #fff;
   border-radius: 20px;
-  margin: 50px 50px 0 50px;
+  margin: 50px 80px 0 80px;
   text-align: center;
 
   transition: transform 0.3s ease-in-out;
@@ -241,7 +241,7 @@ ol li {
   margin-top: 30px;
   color: #fff;
   padding: 30px;
-  background: #51699c;
+  background: #51699cd1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,8 +279,8 @@ ol li {
   border-radius: 50px;
   width: 40px;
   height: 40px;
-  bottom: 50px;
-  left: 50px;
+  bottom: 25px;
+  left: 25px;
 }
 
 /* FOOTER */
@@ -373,7 +373,7 @@ footer {
 
   /* SECTIONS */
   section {
-    padding: 50px 50px 0 0;
+    padding: 50px 80px 0 0;
   }
 
   .information {
