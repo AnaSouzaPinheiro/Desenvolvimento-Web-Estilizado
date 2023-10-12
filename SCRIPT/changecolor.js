@@ -1,5 +1,5 @@
 function changeColor(sectionId) {
-  var section = document.getElementById(sectionId);
+const section = document.getElementById(sectionId);
   section.style.color = "#00c0c0";
 
   setTimeout(function () {
